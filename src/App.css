@@ -1,38 +1,372 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+.fw-900 {
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Eurostile Extended";
+  src: url("./assets/fonts/EurostileBQ-BoldExtended.otf");
+}
+.ff-Eurostile {
+  font-family: "Eurostile Extended";
+}
+.ff-Manrope {
+  font-family: "Manrope";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -------------------elllips--opacity--poinert--------- */
+.pointer {
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ----opacity--- */
+.opacity_05 {
+  opacity: 0.5;
+}
+.opacity_06 {
+  opacity: 0.6;
+}
+.opacity_07 {
+  opacity: 0.7;
+}
+.opacity_08 {
+  opacity: 0.8;
+}
+.opacity_09 {
+  opacity: 0.9;
+}
+.opacity_1 {
+  opacity: 1;
+}
+/* ------------Nav-bar---------------- */
+.navBar-py-13 {
+  padding: 13px 0;
+}
+.comonbtn {
+  padding: 13px 8px;
+  background-color: var(--yello);
+  border-radius: 1.01px;
+  transition: all 300ms linear;
+  border: none;
+}
+.comonbtn-border:hover .comonbtn {
+  background-color: transparent !important;
+  color: var(--yello);
+}
+.comonbtn-border:hover::after {
+  animation: yelo 2s linear alternate infinite;
+}
+@keyframes yelo {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 85%;
   }
 }
+.comonbtn-border {
+  border: 0.5px solid var(--yello);
+  border-radius: 1.01px;
+  padding: 6.5px;
+  position: relative;
+  transition: all 300ms linear;
+}
+.comonbtn-border::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  background-color: var(--blk-01);
+  height: 2.5px;
+  bottom: -1px;
+  left: 44px;
+  z-index: 2;
+}
+.headerbg {
+  background-image: url("./assets/img/png/header-bg.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100vh;
+}
+.max-640 {
+  max-width: 640px;
+}
+.hero-img-size {
+  max-width: 344px;
+  height: 473px;
+}
+/* ------------------------detail section -----------------*/
+.detail-py-182-164 {
+  padding: 182px 0 164px;
+}
+.detail-card {
+  padding: 63px 53px 50px;
+  border: 1px solid var(--yello-2);
+  border-radius: 24px;
+  max-width: 1102px;
+  background: var(--l-blk);
+}
+.gap-15 {
+  gap: 15px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* ----------------------let me know ------------------------- */
+.Laptop-size {
+  max-width: 530px;
+}
+.pb-168 {
+  padding-bottom: 168px;
+}
+.mb-29 {
+  margin-bottom: 29px;
+}
+.gap-13 {
+  gap: 13px;
+}
+.mb-47 {
+  margin-bottom: 47px;
+}
+input {
+  border: 0.5px solid var(--gray);
+  background: rgba(242, 242, 243, 0.1);
+  border-radius: 3px;
+  padding: 16px 22px 12px;
+  outline: none;
+  opacity: 56%;
+}
+input:focus {
+  border-color: var(--yello) !important;
+}
+input::placeholder {
+  color: var(--white);
+}
+.max-532 {
+  max-width: 522px;
+}
+/* --------------------------right-knwledge-------------- */
+.py-50 {
+  padding: 50px 0;
+}
+.yello-bg-img {
+  background-image: url("./assets/img/png/rigth-knowledge.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.max-704 {
+  max-width: 704px;
+}
+.mythBook-size {
+  max-width: 332px !important;
+  min-height: 438px !important;
+  object-fit: contain;
+}
+/* --------------------------About--------------------------- */
+.py-115-200 {
+  padding: 115px 0 200px;
+}
+.mb-14 {
+  margin-bottom: 14px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.gap-17 {
+  gap: 17px;
+}
+.insta-icon {
+  transition: all 300ms linear;
+}
+.insta-icon:hover {
+  color: var(--yello);
+}
+.menImg-size {
+  max-width: 539px;
+  height: 663px;
+}
+.max-520 {
+  max-width: 520px;
+}
+.football-img {
+  width: 260px;
+  height: 241px;
+  left: -19%;
+  bottom: -16%;
+}
+/* --------------------------content ----------------------- */
+.py-110-70 {
+  padding: 110px 0 70px;
+  margin-bottom: -1px;
+}
+.bg-blk-gray {
+  background: var(--blk-1);
+  background: var(--blk-gray-gradient);
+}
+.Yellow-img {
+  background-image: url("../src/assets/img/png/Yellow-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 52px 50px 42px !important;
+  border-radius: 16px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.freebtn {
+  padding: 16px 14px;
+  background-color: var(--blk-01);
+  border: none;
+  transition: all 300ms linear;
+}
+.free-border:hover .freebtn {
+  color: var(--yello);
+}
+.free-border:hover {
+  background-color: var(--blk-01);
+}
+.free-border {
+  border: 0.5px solid var(--blk-01);
+  padding: 8px 10px;
+  border-radius: 1.01px;
+  background-color: transparent;
+  position: relative;
+  transition: all 300ms linear;
+  max-width: 255px;
+}
+.free-border::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  background-color: var(--yello);
+  height: 4.5px;
+  bottom: -2.5px;
+  left: 44px;
+  z-index: 5;
+}
+.free-border:hover::after {
+  animation: yelo 2s linear alternate infinite;
+}
+@keyframes yelo {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 89%;
+  }
+}
+.ipad-size {
+  position: absolute;
+  width: 658.09px;
+  height: 438.94px;
+  bottom: -30px;
+  right: -82px;
+}
+.socialIcon {
+  transition: all 300ms linear;
+}
+.socialIcon:hover {
+  scale: 0.8;
+}
+
+/* ------------------------------footer------------------- */
+.mb-19 {
+  margin-bottom: 19px;
+}
+.gap-11 {
+  gap: 11px;
+}
+.line {
+  border-top: 1px solid var(--whiteF2);
+  padding: 10px 0;
+}
+.py-10 {
+  padding: 10px 0;
+}
+/* ------------------------ellips------------------ */
+.ellipsOne {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  z-index: -1;
+}
+.yello-ellips {
+  width: 678px;
+  height: 76px;
+  position: absolute;
+  background: var(--yello);
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(182px);
+}
+.ellipsTwo {
+  position: absolute;
+  top: -78px;
+  left: 0;
+}
+.ellipsThree {
+  position: absolute;
+  top: 118px;
+  right: 0;
+}
+.ellipsFour {
+  position: absolute;
+  bottom: -70px;
+  left: 0px;
+}
+.circle-ellips {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 4%;
+  width: 388px;
+  height: 429px;
+  background: var(--d-yello);
+  filter: blur(100px);
+}
+/* -------------------back-to-top----------- */
+.backtop {
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  right: 1%;
+  bottom: 2%;
+  border-radius: 50%;
+  background-color: var(--yello);
+  height: 51px;
+  width: 51px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 10;
 }
-
-.App-link {
-  color: #61dafb;
+.backtop > svg path {
+  fill: var(--white);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.scale_06 {
+  scale: 0.6;
+}
+.backtop {
+  animation: move 1.3s infinite linear;
+}
+.backtop:hover {
+  animation-play-state: paused;
+}
+@keyframes move {
+  50% {
+    transform: translateY(-10px);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translateY(0px);
   }
 }

@@ -1,0 +1,491 @@
+:root {
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-24: 24px;
+  --fs-25: 25px;
+  --fs-26: 26px;
+  --fs-28: 28px;
+  --fs-30: 30px;
+  --fs-45: 45px;
+  /* clr */
+  --white: #ffffff;
+  --whiteF2: #f2f2f3;
+  --gray: #f2f2f366;
+  --l-gray: #0f0f0f;
+  --black: #000000;
+  --blk-01: #010101;
+  --blk-1:rgb(1, 1, 1);
+  --yello: #fce500;
+  --yello-2: #fce500c7;
+  --d-yello:rgba(252, 229, 0, 0.2);
+  --l-blk:rgba(51, 51, 51, 0.19);
+  --blk-gray-gradient: linear-gradient(
+    180deg,
+    rgba(1, 1, 1, 1) 60%,
+    rgba(15, 15, 15, 1) 60%
+  );
+}
+/*--------------------------- clr --------------- */
+.clr-black {
+  color: var(--black);
+}
+.clr-yello {
+  color: var(--yello);
+}
+.clr-blk-01 {
+  color: var(--blk-01);
+}
+
+.clr-white {
+  color: var(--white);
+}
+.clr-whiteF2 {
+  color: var(--whiteF2);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-l-gray {
+  background-color: var(--l-gray);
+}
+.bg-white {
+  background-color: var(--white);
+}
+body {
+  background-color: var(--blk-01) !important;
+}
+/* -------------------------font-size----------- */
+.fs-12 {
+  font-size: var(--fs-12);
+}
+.fs-14 {
+  font-size: var(--fs-14);
+}
+.fs-16 {
+  font-size: var(--fs-16);
+}
+.fs-18 {
+  font-size: var(--fs-18);
+}
+.fs-20 {
+  font-size: var(--fs-20);
+}
+.fs-22 {
+  font-size: var(--fs-22);
+}
+.fs-24 {
+  font-size: var(--fs-24);
+}
+.fs-25 {
+  font-size: var(--fs-25);
+}
+.fs-26 {
+  font-size: var(--fs-26);
+}
+.fs-28 {
+  font-size: var(--fs-28);
+}
+.fs-30 {
+  font-size: var(--fs-30);
+}
+.fs-45 {
+  font-size: var(--fs-45);
+}
+
+/* -------------------------line-height-------------- */
+
+.lh-12 {
+  line-height: 12px;
+}
+.lh-14 {
+  line-height: 14px;
+}
+.lh-16 {
+  line-height: 16px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-28 {
+  line-height: 28px;
+}
+.lh-32 {
+  line-height: 32px;
+}
+.lh-36 {
+  line-height: 36px;
+}
+.lh-40 {
+  line-height: 40px;
+}
+.lh-44 {
+  line-height: 44px;
+}
+.lh-48 {
+  line-height: 48px;
+}
+.lh-49 {
+  line-height: 49.65px;
+}
+.lh-59 {
+  line-height: 59px;
+}
+
+/* -------------------------------- */
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .container {
+    max-width: 1140px !important;
+  }
+  .headerbg {
+    background-size: cover;
+  }
+  .max-1200 {
+    min-width: 1200px !important;
+  }
+}
+@media (max-width: 1399.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-45: 36px;
+  }
+  .headerbg {
+    background-size: cover;
+  }
+  .Yellow-img {
+    background-size: cover;
+    padding: 42px !important;
+  }
+  .lh-59 {
+    line-height: 53px;
+  }
+  .hero-img-size {
+    max-width: 328px;
+    height: 450px;
+  }
+
+  .detail-py-182-164 {
+    padding: 120px 0;
+  }
+  .py-115-200 {
+    padding: 115px 0 120px;
+  }
+  .pb-168 {
+    padding-bottom: 120px;
+  }
+  .yello-bg-img {
+    background-size: cover;
+  }
+  .menImg-size {
+    max-width: 500px;
+    height: 610px;
+  }
+  .ipad-size {
+    position: unset;
+    width: unset;
+    height: unset;
+  }
+  .py-110-70 {
+    padding: 0 0 70px;
+    margin-bottom: -1px;
+  }
+}
+@media (max-width: 1199.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-45: 34px;
+  }
+  .lh-59 {
+    line-height: 52px;
+  }
+  .detail-py-182-164 {
+    padding: 100px 0;
+  }
+  .pb-168 {
+    padding-bottom: 100px;
+  }
+  .py-115-200 {
+    padding: 100px 0;
+  }
+  .mb-47 {
+    margin-bottom: 40px;
+  }
+  .detail-card {
+    padding: 42px 42px 32px;
+  }
+  .lh-49 {
+    line-height: 46.65px;
+  }
+  .mythBook-size {
+    max-width: 310px !important;
+    min-height: 330px !important;
+    object-fit: contain;
+  }
+  .menImg-size {
+    max-width: 442px;
+    height: 530px;
+  }
+  .Yellow-img {
+    background-size: cover;
+    padding: 30px !important;
+  }
+}
+@media (max-width: 991.5px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-45: 32px;
+  }
+  .max-640 {
+    max-width: unset;
+  }
+  .hero-py-80 {
+    padding: 80px 0;
+  }
+  .lh-59 {
+    line-height: 46px;
+  }
+  .headerbg {
+    background-size: cover;
+    height: unset !important;
+  }
+  .max-532 {
+    max-width: unset;
+  }
+  .detail-card {
+    padding: 38px 32px;
+  }
+  .detail-py-182-164 {
+    padding: 90px 0;
+  }
+  .pb-168 {
+    padding-bottom: 90px;
+  }
+  .py-115-200 {
+    padding: 90px 0;
+  }
+  .lh-49 {
+    line-height: 44px;
+  }
+  .max-520 {
+    max-width: unset;
+  }
+  .ipad-size {
+    width: 480.09px;
+    height: unset;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 28px;
+    --fs-45: 25px;
+  }
+  .container {
+    max-width: 575px !important;
+  }
+  .lh-59 {
+    line-height: 38px;
+  }
+  .hero-py-80 {
+    padding: 60px 0;
+  }
+
+  .detail-card {
+    padding: 28px 24px;
+  }
+  .detail-py-182-164 {
+    padding: 70px 0;
+  }
+  .pb-168 {
+    padding-bottom: 70px;
+  }
+  .py-115-200 {
+    padding: 70px 0;
+  }
+  .Laptop-size {
+    max-width: 420px;
+  }
+  .mb-29 {
+    margin-bottom: 24px;
+  }
+  .mb-47 {
+    margin-bottom: 40px;
+  }
+  .Laptop-size {
+    max-width: 340px;
+  }
+  .hero-img-size {
+    max-width: 328px;
+    height: 392px;
+  }
+  .lh-49 {
+    line-height: 38px;
+  }
+  .football-img {
+    width: 220px;
+    height: 204px;
+  }
+  .Yellow-img {
+    padding: 32px !important;
+  }
+  .ellipsOne {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    z-index: -1;
+  }
+  .circle-ellips {
+    left: 4%;
+    width: 274px;
+    height: 252px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 14px;
+    --fs-18: 15px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 22px;
+    --fs-25: 25px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-30: 18px;
+    --fs-45: 19px;
+  }
+  .lh-59 {
+    line-height: 30px;
+  }
+  .hero-py-80 {
+    padding: 42px 0;
+  }
+  .hero-img-size {
+    max-width: 282px;
+    height: 332px;
+  }
+  .lh-49 {
+    line-height: 25.65px;
+  }
+  .lh-36 {
+    line-height: 28px;
+  }
+  .detail-py-182-164 {
+    padding: 60px 0;
+  }
+
+  .lh-36 {
+    line-height: 24px;
+  }
+  .lh-28 {
+    line-height: 23px;
+  }
+  .gap-15 {
+    gap: 8px;
+  }
+  .pb-168 {
+    padding-bottom: 60px;
+  }
+  .detail-card {
+    padding: 22px 12px;
+  }
+  .mb-47 {
+    margin-bottom: 32px;
+  }
+  .football-img {
+    display: none;
+  }
+  .menImg-size {
+    max-width: unset;
+    height: unset;
+  }
+  .mb-14 {
+    margin-bottom: 8px;
+  }
+  .gap-10 {
+    gap: 8px;
+  }
+  .py-115-200 {
+    padding: 60px 0;
+  }
+  .ipad-size {
+    width: 298.09px;
+  }
+  .Yellow-img {
+    padding: 18px !important;
+  }
+  .mb-32 {
+    margin-bottom: 24px;
+  }
+  .py-110-70 {
+    padding: 0 0 60px;
+    margin-bottom: -1px;
+  }
+  .mb-30 {
+    margin-bottom: 24px;
+  }
+  .free-border {
+    padding: 6px 8px;
+    max-width: 225px;
+  }
+  .circle-ellips {
+    left: 4%;
+    width: 215px;
+    height: 186px;
+    top: 18%;
+  }
+  .yello-ellips {
+    width: 48px;
+    height: 461px;
+  }
+  .line {
+    padding: 10px 12px;
+  }
+}
