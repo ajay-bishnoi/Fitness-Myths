@@ -57,14 +57,17 @@
   color: var(--yello);
 }
 .comonbtn-border:hover::after {
-  animation: yelo 2s linear alternate infinite;
+  animation: mymove 5s alternate infinite;
 }
-@keyframes yelo {
+@keyframes mymove {
   0% {
-    left: 0;
+    left: 20%;
+  }
+  50% {
+    left: 85%;
   }
   100% {
-    left: 85%;
+    left: 1%;
   }
 }
 .comonbtn-border {
@@ -81,7 +84,7 @@
   background-color: var(--blk-01);
   height: 2.5px;
   bottom: -1px;
-  left: 44px;
+  left: 20%;
   z-index: 2;
 }
 .headerbg {
@@ -250,18 +253,21 @@ input::placeholder {
   background-color: var(--yello);
   height: 4.5px;
   bottom: -2.5px;
-  left: 44px;
+  left: 20%;
   z-index: 5;
 }
 .free-border:hover::after {
-  animation: yelo 2s linear alternate infinite;
+  animation: mymove 5s alternate infinite;
 }
-@keyframes yelo {
+@keyframes mymove {
   0% {
-    left: 0;
+    left: 20%;
+  }
+  50% {
+    left: 90.3%;
   }
   100% {
-    left: 89%;
+    left: 0%;
   }
 }
 .ipad-size {
