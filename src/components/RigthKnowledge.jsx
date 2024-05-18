@@ -6,8 +6,8 @@ const RigthKnowledge = () => {
   return (
     <div className="yello-bg-img py-50">
       <Container className="my-lg-2">
-        <Row className=" align-items-center justify-content-between">
-          <Col lg={8}>
+        <Row className=" align-items-center justify-content-between flex-column-reverse flex-lg-row">
+          <Col lg={8} className="mt-lg-0 mt-md-5 mt-4">
             <h3
               data-aos="flip-left"
               className="mb-0 fw-bold fs-30 lh-49 clr-blk-01 ff-Eurostile max-704 text-center text-lg-start"
@@ -19,7 +19,7 @@ const RigthKnowledge = () => {
           </Col>
           <Col
             lg={4}
-            className=" d-flex justify-content-center justify-content-lg-start mt-lg-0 mt-5"
+            className=" d-flex justify-content-center justify-content-lg-start "
           >
             <img
               data-aos="flip-right"

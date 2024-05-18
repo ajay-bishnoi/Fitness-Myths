@@ -314,16 +314,19 @@ input::placeholder {
   position: absolute;
   top: -78px;
   left: 0;
+  z-index: -2;
 }
 .ellipsThree {
   position: absolute;
   top: 118px;
   right: 0;
+  z-index: -2;
 }
 .ellipsFour {
   position: absolute;
   bottom: -70px;
   left: 0px;
+  z-index: -2;
 }
 .circle-ellips {
   position: absolute;
@@ -334,39 +337,4 @@ input::placeholder {
   height: 429px;
   background: var(--d-yello);
   filter: blur(100px);
-}
-/* -------------------back-to-top----------- */
-.backtop {
-  position: fixed;
-  cursor: pointer;
-  display: none;
-  right: 1%;
-  bottom: 2%;
-  border-radius: 50%;
-  background-color: var(--yello);
-  height: 51px;
-  width: 51px;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-.backtop > svg path {
-  fill: var(--white);
-}
-.scale_06 {
-  scale: 0.6;
-}
-.backtop {
-  animation: move 1.3s infinite linear;
-}
-.backtop:hover {
-  animation-play-state: paused;
-}
-@keyframes move {
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
 }

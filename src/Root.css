@@ -18,11 +18,11 @@
   --l-gray: #0f0f0f;
   --black: #000000;
   --blk-01: #010101;
-  --blk-1:rgb(1, 1, 1);
+  --blk-1: rgb(1, 1, 1);
   --yello: #fce500;
   --yello-2: #fce500c7;
-  --d-yello:rgba(252, 229, 0, 0.2);
-  --l-blk:rgba(51, 51, 51, 0.19);
+  --d-yello: rgba(252, 229, 0, 0.2);
+  --l-blk: rgba(51, 51, 51, 0.19);
   --blk-gray-gradient: linear-gradient(
     180deg,
     rgba(1, 1, 1, 1) 60%,
@@ -205,6 +205,15 @@ body {
     padding: 0 0 70px;
     margin-bottom: -1px;
   }
+  .mb-32 {
+    margin-bottom: 28px;
+  }
+  .lh-59 {
+    line-height: 49px;
+  }
+  .mb-30 {
+    margin-bottom: 26px;
+  }
 }
 @media (max-width: 1199.5px) {
   :root {
@@ -295,6 +304,9 @@ body {
   }
   .pb-168 {
     padding-bottom: 90px;
+  }
+  .mb-32 {
+    margin-bottom: 24px;
   }
   .py-115-200 {
     padding: 90px 0;
@@ -394,12 +406,12 @@ body {
     --fs-18: 15px;
     --fs-20: 20px;
     --fs-22: 22px;
-    --fs-24: 22px;
+    --fs-24: 20px;
     --fs-25: 25px;
-    --fs-26: 26px;
+    --fs-26: 22px;
     --fs-28: 28px;
-    --fs-30: 18px;
-    --fs-45: 19px;
+    --fs-30: 23px;
+    --fs-45: 20px;
   }
   .lh-59 {
     line-height: 30px;
@@ -407,22 +419,24 @@ body {
   .hero-py-80 {
     padding: 42px 0;
   }
+  .gap-17 {
+    gap: 10px;
+  }
+  .mb-19 {
+    margin-bottom: 14px;
+  }
   .hero-img-size {
     max-width: 282px;
     height: 332px;
   }
   .lh-49 {
-    line-height: 25.65px;
+    line-height: 28.65px;
   }
   .lh-36 {
-    line-height: 28px;
+    line-height: 30px;
   }
   .detail-py-182-164 {
     padding: 60px 0;
-  }
-
-  .lh-36 {
-    line-height: 24px;
   }
   .lh-28 {
     line-height: 23px;
@@ -462,7 +476,7 @@ body {
     padding: 18px !important;
   }
   .mb-32 {
-    margin-bottom: 24px;
+    margin-bottom: 18px;
   }
   .py-110-70 {
     padding: 0 0 60px;

@@ -7,8 +7,12 @@ const Content = () => {
     <div className="py-110-70 bg-blk-gray">
       <Container>
         <div className="Yellow-img">
-          <Row className=" align-items-center align-items-xxl-stretch">
-            <Col data-aos="fade-left" lg={6} className="h-100">
+          <Row className=" align-items-center align-items-xxl-stretch flex-column-reverse flex-lg-row">
+            <Col
+              data-aos="fade-left"
+              lg={6}
+              className="h-100 mt-lg-0 mt-md-5 mt-4"
+            >
               <h2 className="mb-10 fw-bold fs-45 lh-59 ff-Eurostile text-lg-start text-center clr-blk-01">
                 7 Fitness Myths to Avoid
               </h2>
@@ -23,7 +27,7 @@ const Content = () => {
             </Col>
             <Col
               lg={6}
-              className="position-relative mt-lg-0 mt-5 d-flex justify-content-center justify-content-lg-end"
+              className="position-relative  d-flex justify-content-center justify-content-lg-end"
             >
               <div data-aos="fade-right" className="ipad-size">
                 <img src={Ipad} alt="Ipad-img" className="w-100" />
